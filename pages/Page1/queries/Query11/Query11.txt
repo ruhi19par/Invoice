@@ -1,0 +1,16 @@
+CREATE TABLE public.invoices (
+  invoice_id      VARCHAR(50)   PRIMARY KEY,
+  milestone_id    UUID,
+  client          VARCHAR(100),
+  invoice_date    DATE,
+  due_date        DATE,
+  base_amount     DECIMAL(12,2),
+  tax_amount      DECIMAL(12,2),
+  total_amount    DECIMAL(12,2),
+  status          VARCHAR(30),
+  approved_by     VARCHAR(100),
+  dispatched_to   VARCHAR(100),
+  cycle_time_sec  INT,
+  quarter         VARCHAR(10),
+  month_name      VARCHAR(30)
+);

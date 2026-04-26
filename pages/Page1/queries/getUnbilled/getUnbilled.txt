@@ -1,0 +1,10 @@
+SELECT
+  milestone_name,
+  amount,
+  description,
+  milestone_id
+FROM public.milestones
+WHERE milestone_id NOT IN (
+  SELECT milestone_id FROM public.invoices
+)
+ORDER BY amount DESC;

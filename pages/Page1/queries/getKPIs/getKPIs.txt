@@ -1,0 +1,7 @@
+SELECT
+  COUNT(*)                    AS total_invoices,
+  SUM(total_amount)           AS total_invoiced,
+  AVG(cycle_time_sec)         AS avg_cycle_time,
+  SUM(CASE WHEN status = 'DISPATCHED'
+       THEN total_amount ELSE 0 END) AS dispatched_amount
+FROM public.invoices;

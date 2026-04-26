@@ -1,0 +1,4 @@
+SELECT COUNT(*) AS total_invoices,
+       SUM(total_amount) AS total_invoiced,
+       AVG(cycle_time_sec) AS avg_cycle_time
+FROM public.invoices;

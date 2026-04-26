@@ -1,0 +1,9 @@
+SELECT
+  agent_name,
+  action_taken,
+  invoice_id,
+  amount,
+  log_time,
+  status
+FROM public.audit_log
+ORDER BY log_id ASC;

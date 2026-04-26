@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69e1e0138084ad411c80c57f_75710a88-a60f-4b31-b1bb-4e88c412b3bd",
+  "id": "Page1_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "pipelineRunning",
+        "value": "false"
+      }
+    ]
+  }
+}

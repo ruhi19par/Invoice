@@ -1,0 +1,12 @@
+SELECT
+  invoice_id,
+  client,
+  total_amount,
+  status,
+  invoice_date,
+  due_date,
+  approved_by,
+  cycle_time_sec,
+  quarter
+FROM public.invoices
+ORDER BY invoice_date DESC;

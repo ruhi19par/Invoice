@@ -1,0 +1,24 @@
+CREATE TABLE public.invoice_full_view AS
+SELECT
+  i.invoice_id,
+  i.client,
+  i.invoice_date,
+  i.due_date,
+  i.base_amount,
+  i.tax_amount,
+  i.total_amount,
+  i.status          AS invoice_status,
+  i.approved_by,
+  i.dispatched_to,
+  i.cycle_time_sec,
+  i.quarter,
+  i.month_name,
+  m.milestone_name,
+  d.deliverable_name,
+  d.status          AS deliverable_status
+FROM public.invoices i
+JOIN public.milestones m
+  ON i.milestone_id = m.milestone_id
+JOIN public.deliverables d
+  ON d.milestone_id = m.milestone_id
+ AND d.status = 'DONE';

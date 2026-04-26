@@ -1,0 +1,21 @@
+INSERT INTO public.invoices VALUES
+('INV-2024-001',
+ '5fc60804-9de3-4e3e-b3cd-5336bdff735d'::uuid,
+ 'TCS Limited', '2024-12-20', '2025-01-19',
+ 750000, 135000, 885000, 'DISPATCHED',
+ 'Amit Khanna', 'billing@tcs.com',
+ 58, 'Q4', 'December 2024'),
+
+('INV-2024-002',
+ '307841ec-737b-4ff5-befa-f0501cf33470'::uuid,
+ 'Infosys Ltd', '2024-11-15', '2024-12-15',
+ 420000, 75600, 495600, 'DISPATCHED',
+ 'Auto Approved', 'finance@infosys.com',
+ 42, 'Q3', 'November 2024'),
+
+('INV-2024-003',
+ '2df4dec4-b536-49c0-a21b-cae06f53f50f'::uuid,
+ 'Wipro Ltd', '2024-10-10', '2024-11-10',
+ 680000, 122400, 802400, 'DISPATCHED',
+ 'Amit Khanna', 'accounts@wipro.com',
+ 61, 'Q3', 'October 2024');

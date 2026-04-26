@@ -1,0 +1,1 @@
+SELECT milestone_id FROM public.milestones LIMIT 3;
