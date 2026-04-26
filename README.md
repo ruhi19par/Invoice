@@ -1,9 +1,3 @@
-# 🚀 Deloitte Invoice Automation
-[![Live Demo](https://img.shields.io/badge/Demo-Live_Application-green?style=for-the-badge)](https://ruhi19par.github.io/Invoice/)
-
-### Project Overview
-This project automates invoice extraction and governance routing using GenW AI Agents. 
-Connected via **GitHub Sync** for enterprise-grade version control.
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
