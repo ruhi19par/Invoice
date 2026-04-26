@@ -1,3 +1,10 @@
+# 🚀 Deloitte Invoice Automation
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Application-green?style=for-the-badge)](https://ruhi19par.github.io/Invoice/)
+
+### Project Overview
+This project automates invoice extraction and governance routing using GenW AI Agents. 
+Connected via **GitHub Sync** for enterprise-grade version control.
+
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
